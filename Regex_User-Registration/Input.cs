@@ -6,10 +6,14 @@ namespace Regex_User_Registration
 {
     class Input
     {
-        public static string inputName()
+        public static string[] inputName()
         {
+            string[] name = new string[2];
             Console.Write("Enter Name : ");
-            return Console.ReadLine();
+            var nameString = Console.ReadLine();
+            name = nameString.Split(" ");
+            return name;
+
         }
     }
 }

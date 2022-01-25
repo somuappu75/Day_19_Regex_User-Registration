@@ -6,7 +6,6 @@ namespace Regex_User_Registration
 {
     interface Validator
     {
-        void ValidateFirstName(string firstName);
-
+        string validateName(string firstName);
     }
 }
