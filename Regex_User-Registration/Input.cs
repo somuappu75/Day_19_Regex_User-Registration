@@ -15,5 +15,10 @@ namespace Regex_User_Registration
             return name;
 
         }
+        public static string inputEmail() // method to take email from user
+        {
+            Console.Write("Enter email : ");
+            return Console.ReadLine();
+        }
     }
 }
