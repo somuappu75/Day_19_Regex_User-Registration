@@ -20,5 +20,10 @@ namespace Regex_User_Registration
             Console.Write("Enter email : ");
             return Console.ReadLine();
         }
+        public static string inputNumber() // method to take number from user
+        {
+            Console.Write("Enter number with country code : ");
+            return Console.ReadLine();
+        }
     }
 }
