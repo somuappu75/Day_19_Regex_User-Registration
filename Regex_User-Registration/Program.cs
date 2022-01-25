@@ -14,6 +14,15 @@ namespace Regex_User_Registration
             else
                 return "invalid";
         }
+        public string validateEmail(string email)
+        {
+            var expr = @"^abc((\.[A-Z]+[a-z]*[0-9]*)|(\.[A-Z]*[a-z]+[0-9]*)|(\.[A-Z]*[a-z]*[0-9]+)?)?@bl\.co(\.[a-z]{2,})?$";
+            var match = Regex.Match(email, expr, RegexOptions.None);
+            if (match.Success)
+                return "valid";
+            else
+                return "invalid";
+        }
 
         static void Main(string[] args)
         {
@@ -24,6 +33,9 @@ namespace Regex_User_Registration
             Console.WriteLine($"First name {user.validateName(firstName)}"); // validating first name
             string lastName = name[1]; // last name
             Console.WriteLine($"Last name {user.validateName(lastName)}"); // validating last name
+
+            string email = Input.inputEmail(); // taking email form user
+            Console.WriteLine($"Email {user.validateEmail(email)}"); // validating email
         }
 
     }
