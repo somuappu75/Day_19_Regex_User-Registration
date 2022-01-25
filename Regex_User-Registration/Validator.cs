@@ -8,5 +8,6 @@ namespace Regex_User_Registration
     {
         string validateName(string firstName);
         string validateEmail(string email);
+        string validateNumber(string number);
     }
 }
