@@ -5,6 +5,7 @@ namespace Regex_User_Registration
 {
     class UserRegister:Validator
     {
+        
         public string checkMatch(string exp, string stringToMatch)
         {
             var match = Regex.Match(stringToMatch, exp, RegexOptions.None);
@@ -48,7 +49,7 @@ namespace Regex_User_Registration
         static void Main(string[] args)
         {
             UserRegister user = new UserRegister();
-
+            Console.WriteLine("-----------Email Validation Using Reguler Expression--------");
             string firstName = Input.inputFirstName(); // first name
             Console.WriteLine($"First name {user.validateName(firstName)}"); // validating first name
             string lastName = Input.inputLastName(); // last name
