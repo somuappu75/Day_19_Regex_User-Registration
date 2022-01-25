@@ -41,7 +41,7 @@ namespace Regex_User_Registration
         }
         public string validatePassword(string password)
         {
-            var expr = @"^^(?=.*[A-Z])(.{8,})$";
+            var expr = @"^(?=.*[A-Z])(?=.*[0-9])(.{8,})$";
             return this.checkMatch(expr, password);
         }
 
