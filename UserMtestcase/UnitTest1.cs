@@ -13,7 +13,7 @@ namespace UserMtestcase
         [DataRow("Somanath", "Somana")]
         [DataRow("Som", "Som")]
         [DataRow("s", null)]
-        [DataRow("S", null)]
+        [DataRow("Somu75", null)]
 
         public void ValidateFirstname(string a, string expected)
         {
