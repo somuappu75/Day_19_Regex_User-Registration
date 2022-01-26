@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regex_User-Registration", "Regex_User-Registration\Regex_User-Registration.csproj", "{2A54DF1D-2203-4B47-968E-CD4123FF9FBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Regex_User-Registration", "Regex_User-Registration\Regex_User-Registration.csproj", "{2A54DF1D-2203-4B47-968E-CD4123FF9FBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMtestcase", "UserMtestcase\UserMtestcase.csproj", "{5E02DA0D-FB68-4597-BA9F-6039EDE03261}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2A54DF1D-2203-4B47-968E-CD4123FF9FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A54DF1D-2203-4B47-968E-CD4123FF9FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A54DF1D-2203-4B47-968E-CD4123FF9FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E02DA0D-FB68-4597-BA9F-6039EDE03261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E02DA0D-FB68-4597-BA9F-6039EDE03261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E02DA0D-FB68-4597-BA9F-6039EDE03261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E02DA0D-FB68-4597-BA9F-6039EDE03261}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
