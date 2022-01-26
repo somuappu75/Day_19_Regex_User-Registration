@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Regex_User_Registration
 {
-    class Input
+   public  class Input
     {
 
         public static string inputFirstName() // method to take first name from user

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Regex_User_Registration
 {
-    interface Validator
+  public  interface Validator
     {
         string checkMatch(string exp, string stringToCheck);
         string validateName(string firstName);
