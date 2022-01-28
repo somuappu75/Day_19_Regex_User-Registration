@@ -5,7 +5,9 @@ namespace Regex_User_Registration
 {
     class UserRegister:Validator
     {
+
         
+
         public string checkMatch(string exp, string stringToMatch)
         {
             var match = Regex.Match(stringToMatch, exp, RegexOptions.None);
